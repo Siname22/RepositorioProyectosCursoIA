@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Classroom Organizer — Raúl Poblete Illescas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=VT323&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<div class="container">
+
+  <a class="back-link" href="../">← volver al índice</a>
+
+  <div class="header">
+    <div class="header-top">
+      <div class="led"></div>
+      <span class="system-label">Google Apps Script Generator v2.0</span>
+    </div>
+    <h1>CLASSROOM<br>ORGANIZER</h1>
+    <p class="subtitle">// genera tu script personalizado en segundos<span class="cursor"></span></p>
+    <p class="author">// creado por <span>Raúl Poblete Illescas</span></p>
+  </div>
+
+  <!-- ══════════════════════════════════════════
+       PASO 1 — Login con Google
+  ══════════════════════════════════════════ -->
+  <div class="terminal" id="step1">
+    <div class="terminal-bar">
+      <div class="dot dot-r"></div><div class="dot dot-y"></div><div class="dot dot-g"></div>
+      <span class="terminal-title">paso_01 — autenticación</span>
+    </div>
+    <div class="terminal-body">
+      <span class="step-label">// PASO 1 — Inicia sesión con tu cuenta de Google</span>
+      <p class="field-hint">La página accederá a tu lista de cursos de Classroom para que puedas seleccionarlo directamente. No se almacena ningún dato.</p>
+      <div class="btn-block" style="margin-top:20px;">
+        <button id="btnLogin" onclick="iniciarLogin()">
+          <span>▶ iniciar sesión con Google</span>
+        </button>
+      </div>
+      <div id="logLogin" class="log"></div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════
+       PASO 2 — Seleccionar curso
+  ══════════════════════════════════════════ -->
+  <div class="terminal locked" id="step2">
+    <div class="terminal-bar">
+      <div class="dot dot-r"></div><div class="dot dot-y"></div><div class="dot dot-g"></div>
+      <span class="terminal-title">paso_02 — seleccionar curso</span>
+      <span class="lock-icon">🔒</span>
+    </div>
+    <div class="terminal-body">
+      <span class="step-label">// PASO 2 — Selecciona tu curso de Classroom</span>
+      <div class="prompt-line">
+        <span class="prompt-symbol">$</span>
+        <div class="field-block">
+          <label class="field-label">CURSO</label>
+          <span class="field-hint">// Tus cursos se cargarán aquí tras el login</span>
+          <select id="selectCurso" disabled>
+            <option value="">— inicia sesión primero —</option>
+          </select>
+        </div>
+      </div>
+      <div id="logCursos" class="log"></div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════
+       PASO 3 — ID carpeta y generar
+  ══════════════════════════════════════════ -->
+  <div class="terminal locked" id="step3">
+    <div class="terminal-bar">
+      <div class="dot dot-r"></div><div class="dot dot-y"></div><div class="dot dot-g"></div>
+      <span class="terminal-title">paso_03 — configurar y generar</span>
+      <span class="lock-icon">🔒</span>
+    </div>
+    <div class="terminal-body">
+      <span class="step-label">// PASO 3 — Introduce el ID de tu carpeta de Drive</span>
+
+      <div class="prompt-line">
+        <span class="prompt-symbol">$</span>
+        <div class="field-block">
+          <label class="field-label" for="folderId">ID_CARPETA_CLASE</label>
+          <span class="field-hint">
+            // Abre la carpeta en Drive y copia el ID de la URL:<br>
+            drive.google.com/drive/folders/<strong style="color:#3a6a3a">ESTE_ES_EL_ID</strong>
+          </span>
+          <input type="text" id="folderId" placeholder="1B1AvRXahvcbIhOv7qzUh1PLpl2pmbQwy" autocomplete="off" spellcheck="false" disabled/>
+        </div>
+      </div>
+
+      <div class="btn-block">
+        <button id="btnGenerate" onclick="generarScript()" disabled>
+          <span>▶ generar script</span>
+        </button>
+      </div>
+
+      <div class="log" id="log"></div>
+
+      <div class="download-section" id="downloadSection">
+        <h3>✓ SCRIPT LISTO</h3>
+        <p>
+          Descarga el archivo <strong>.gs</strong>, ábrelo con un editor de texto,
+          copia el contenido y pégalo en tu proyecto de Apps Script.<br>
+          Los IDs ya están configurados con tus datos.
+        </p>
+        <button class="btn-download" onclick="descargarScript()">
+          <span>⬇ descargar classroom_organizer.gs</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════
+       Instrucciones
+  ══════════════════════════════════════════ -->
+  <div class="steps">
+    <h2>// instrucciones completas</h2>
+    <div class="step"><span class="step-num">01.</span><span>Inicia sesión con Google para que la página detecte automáticamente tus cursos de Classroom.</span></div>
+    <div class="step"><span class="step-num">02.</span><span>Selecciona el curso correspondiente del desplegable.</span></div>
+    <div class="step"><span class="step-num">03.</span><span>Abre tu carpeta en Google Drive y copia el ID que aparece al final de la URL.</span></div>
+    <div class="step"><span class="step-num">04.</span><span>Pulsa <em>Generar Script</em> y descarga el archivo <em>.gs</em>.</span></div>
+    <div class="step"><span class="step-num">05.</span><span>Abre <em>script.google.com</em>, crea un proyecto nuevo, pega el código descargado y activa <strong>Google Classroom API</strong> en el panel de Servicios.</span></div>
+    <div class="step"><span class="step-num">06.</span><span>Ve a <strong>Configuración del proyecto ⚙️</strong>, activa <em>"Mostrar archivo de manifiesto appsscript.json"</em> y añade en <em>oauthScopes</em>: <code>drive</code>, <code>classroom.courses.readonly</code>, <code>classroom.coursework.me.readonly</code>, <code>classroom.coursework.students.readonly</code> y <code>classroom.announcements.readonly</code>.</span></div>
+    <div class="step"><span class="step-num">07.</span><span>Ejecuta <em>organizarClassroom()</em>. La primera vez te pedirá permisos de Drive y Classroom — acéptalos todos.</span></div>
+    <div class="step"><span class="step-num">08.</span><span>El script se puede programar para ejecutarse automáticamente cada día a las 15:00 desde <strong>Activadores</strong> (icono del reloj) en Apps Script.</span></div>
+  </div>
+
+  <div class="footer">// CLASSROOM ORGANIZER — RAÚL POBLETE ILLESCAS //</div>
+
+</div>
+
+<!-- Google Identity Services -->
+<script src="https://accounts.google.com/gsi/client" async defer></script>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Link-IA - Tecnología avanzada con integración ecológica. Smartphones con conectividad satelital y carga solar." />
+  <title>Link-IA — Futuro Conectado</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700&family=Monoton&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="styles.css"/>
+
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="loader" aria-hidden="true">
+    <div class="loader__inner">
+      <img class="loader__logo" src="images/logo.png" alt="Link-IA" width="90" height="90" />
+      <p class="loader__text">Cargando Link‑IA…</p>
+    </div>
+  </div>
+
+  <header class="header" role="banner">
+    <div class="header__content">
+      <a href="#main" class="logo" aria-label="Link‑IA" title="Link‑IA">
+        <img class="logo__img" src="images/logo.png" alt="Link‑IA" width="130" height="42" />
+      </a>
+
+      <nav class="nav" aria-label="Navegación principal">
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link" href="#main" data-i18n="nav.home">Inicio</a></li>
+          <li class="nav__item"><a class="nav__link" href="#product" data-i18n="nav.product">Producto</a></li>
+          <li class="nav__item"><a class="nav__link" href="#ecosystem" data-i18n="nav.ecosystem">Ecosistema</a></li>
+          <li class="nav__item"><a class="nav__link" href="#contact" data-i18n="nav.contact">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a class="btn-repo" href="https://repositorioproyectos.html-5.me/" target="_blank" rel="noopener" aria-label="Volver al repositorio">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="15 18 9 12 15 6"/></svg>
+          Repositorio
+        </a>
+        <button class="lang-toggle" type="button" aria-label="Cambiar idioma" data-lang="es"><span>ES</span></button>
+
+        <button class="hamburger" aria-expanded="false" aria-label="Abrir menú" type="button">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="nav-overlay" aria-hidden="true"></div>
+  <aside class="nav-panel" aria-label="Menú de navegación">
+    <ul class="nav-panel__list">
+      <li><a class="nav-panel__link" href="#main"><span class="nav-panel__index">01</span> Inicio</a></li>
+      <li><a class="nav-panel__link" href="#product"><span class="nav-panel__index">02</span> Producto</a></li>
+      <li><a class="nav-panel__link" href="#ecosystem"><span class="nav-panel__index">03</span> Ecosistema</a></li>
+      <li><a class="nav-panel__link" href="#contact"><span class="nav-panel__index">04</span> Contacto</a></li>
+      <li><a class="nav-panel__link nav-panel__link--repo" href="https://repositorioproyectos.html-5.me/" target="_blank" rel="noopener"><span class="nav-panel__index">↩</span> Repositorio</a></li>
+    </ul>
+  </aside>
+
+  <main id="main" class="main" role="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__content">
+        <div class="hero__badge" data-i18n="hero.badge">Próximo lanzamiento 2027</div>
+        <h1 class="hero__title" id="hero-title">
+          Link‑IA <span data-i18n="hero.name">One</span>
+        </h1>
+        <p class="hero__subtitle" data-i18n="hero.subtitle">
+          Smartphones satelitales con energía solar integrados, IA en el dispositivo y diseño pensado para el planeta.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#product" data-i18n="hero.cta.product">Ver el producto</a>
+          <a class="btn btn--ghost" href="#contact" data-i18n="hero.cta.contact">Contáctanos</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="product" id="product" aria-labelledby="product-title">
+      <div class="product__content">
+        <div class="product__mockup">
+          <iframe src="phone.html" class="product__iframe" aria-label="Modelo 3D del teléfono" style="width:100%;height:100%;border:0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+        </div>
+
+        <div class="product__info">
+          <h2 class="product__title" id="product-title" data-i18n="product.title">Link‑IA One</h2>
+          <p class="product__description" data-i18n="product.description">
+            El primer smartphone diseñado para operar indistintamente sobre redes terrestres o satelitales, apto para cualquier entorno, con carga solar integrada y un motor de IA que se adapta en tiempo real.
+          </p>
+
+          <div class="product__features">
+            <div class="feature">
+              <div class="feature__icon">🛰️</div>
+              <div>
+                <h3 class="feature__title">Conectividad LEO</h3>
+                <p class="feature__text">Cobertura global sin torres adicionales.</p>
+              </div>
+            </div>
+            <div class="feature">
+              <div class="feature__icon">☀️</div>
+              <div>
+                <h3 class="feature__title">Carga Solar</h3>
+                <p class="feature__text">Batería extendida con paneles integrados.</p>
+              </div>
+            </div>
+            <div class="feature">
+              <div class="feature__icon">🤖</div>
+              <div>
+                <h3 class="feature__title">IA Nativa</h3>
+                <p class="feature__text">Optimización adaptativa de energía y rendimiento.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ecosystem" id="ecosystem" aria-labelledby="ecosystem-title">
+      <div class="ecosystem__content">
+        <h2 class="ecosystem__title" id="ecosystem-title" data-i18n="ecosystem.title">Un ecosistema completo</h2>
+        <p class="ecosystem__subtitle" data-i18n="ecosystem.subtitle">
+          Hardware, software e infraestructura satelital pensados como un solo producto para que todo funcione sin fricciones.
+        </p>
+
+        <div class="cards">
+          <article class="card">
+            <h3 class="card__title">Link‑NET</h3>
+            <p class="card__text">Constelación LEO propia con latencia reducida y cobertura global.</p>
+          </article>
+          <article class="card">
+            <h3 class="card__title">Link‑OS</h3>
+            <p class="card__text">Sistema operativo optimizado para energía, privacidad y rendimiento.</p>
+          </article>
+          <article class="card">
+            <h3 class="card__title">Link‑Cloud</h3>
+            <p class="card__text">Nodos distribuidos con cifrado extremo a extremo.</p>
+          </article>
+          <article class="card">
+            <h3 class="card__title">Link‑Store</h3>
+            <p class="card__text">Marketplace auditado con privacidad certificada.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="contact__content">
+        <h2 class="contact__title" id="contact-title" data-i18n="contact.title">Únete al futuro</h2>
+        <p class="contact__subtitle" data-i18n="contact.subtitle">Déjanos tu correo y te informamos cuando esté disponible.</p>
+
+        <form class="contact__form" id="contact-form" novalidate>
+          <div class="form__group">
+            <label class="form__label" for="contact-name" data-i18n="contact.form.name">Nombre</label>
+            <input class="form__input" type="text" id="contact-name" name="name" required />
+          </div>
+          <div class="form__group">
+            <label class="form__label" for="contact-email" data-i18n="contact.form.email">Correo electrónico</label>
+            <input class="form__input" type="email" id="contact-email" name="email" required />
+          </div>
+          <button class="btn btn--primary" type="submit" data-i18n="contact.form.submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <img class="footer__logo" src="images/logo.png" alt="Link‑IA" width="130" height="42" />
+      </div>
+      <p class="footer__copy">© 2025 Link‑IA Technologies — Tecnología · Conexión · Futuro</p>
+    </div>
+  </footer>
+</body>
+</html>
+

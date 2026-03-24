@@ -1,0 +1,76 @@
+/* ── Reset & Base ─────────────────────────────────────────── */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 100%; height: 100%; overflow: hidden; font-family: 'Courier New', monospace; }
+#c { width: 100%; height: 100%; cursor: grab; display: block; }
+#c.drag { cursor: grabbing; }
+
+/* ── HUD overlays ─────────────────────────────────────────── */
+.hud { position: absolute; pointer-events: none; z-index: 10; }
+
+#lbl {
+  top: 14px; left: 50%; transform: translateX(-50%);
+  font-size: 9px; color: #aabbcc44;
+  letter-spacing: 4px; white-space: nowrap;
+}
+
+/* ── Nav buttons ──────────────────────────────────────────── */
+#nav {
+  bottom: 18px; left: 50%; transform: translateX(-50%);
+  display: flex; gap: 5px; pointer-events: all;
+  flex-wrap: wrap; justify-content: center;
+}
+.nb {
+  padding: 5px 13px;
+  border: 1px solid #ffffff14;
+  border-radius: 8px;
+  font-size: 8px; color: #ffffff33;
+  letter-spacing: 1px; cursor: pointer;
+  background: transparent; font-family: inherit;
+  transition: all .2s; white-space: nowrap;
+}
+.nb:hover, .nb.a {
+  border-color: #889aaa66;
+  color: #ccddeebb;
+  background: #ffffff0c;
+}
+
+/* ── Tip pills ────────────────────────────────────────────── */
+#tips {
+  bottom: 56px; left: 50%; transform: translateX(-50%);
+  display: flex; gap: 8px;
+}
+.tip {
+  font-size: 7px; color: #ffffff14;
+  letter-spacing: 1.5px;
+  padding: 3px 9px;
+  border: 1px solid #ffffff06;
+  border-radius: 8px;
+}
+
+/* ── ARIA chat input ──────────────────────────────────────── */
+#aria-wrap {
+  display: none;
+  position: absolute; bottom: 88px;
+  left: 50%; transform: translateX(-50%);
+  gap: 5px; pointer-events: all;
+  z-index: 20; width: 190px;
+}
+#aria-inp {
+  flex: 1;
+  background: #050d1a;
+  border: 1px solid #00d4ff33;
+  border-radius: 7px;
+  padding: 6px 9px;
+  font-size: 10px; color: #e0f0ff;
+  font-family: 'Courier New', monospace;
+  outline: none; width: 145px;
+}
+#aria-inp:focus { border-color: #00d4ff66; }
+#aria-send {
+  width: 36px; height: 32px;
+  background: #00246a;
+  border: 1px solid #00d4ff55;
+  border-radius: 7px;
+  color: #00d4ff; cursor: pointer;
+  font-size: 13px; flex-shrink: 0;
+}

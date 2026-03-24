@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Link-IA One · 3D Model</title>
+  <link rel="stylesheet" href="phone.css">
+</head>
+<body>
+
+  <canvas id="c"></canvas>
+
+  <div class="hud" id="lbl">SOLAR X1 · MODELO 3D · TAP PANTALLA</div>
+
+  <div class="hud" id="nav">
+    <button class="nb a" onclick="sv('auto',this)">⟳ AUTO</button>
+    <button class="nb"   onclick="sv('front',this)">FRENTE</button>
+    <button class="nb"   onclick="sv('back',this)">TRASERA</button>
+    <button class="nb"   onclick="sv('left',this)">LAT.IZQ</button>
+    <button class="nb"   onclick="sv('right',this)">LAT.DER</button>
+    <button class="nb"   onclick="sv('top',this)">SUPERIOR</button>
+    <button class="nb"   onclick="sv('bot',this)">INFERIOR</button>
+  </div>
+
+  <div class="hud" id="tips">
+    <div class="tip">🖱 ARRASTRAR · ROTAR</div>
+    <div class="tip">👆 TAP APPS</div>
+  </div>
+
+  <div id="aria-wrap">
+    <input id="aria-inp"
+           placeholder="Mensaje a ARIA..."
+           onkeydown="if(event.key==='Enter') sendAria()">
+    <button id="aria-send" onclick="sendAria()">▶</button>
+  </div>
+
+  <!-- Three.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <!-- Screen app draw functions (must load before phone.js) -->
+  <script src="phoneStyle.js"></script>
+  <!-- 3D scene, controls & render loop -->
+  <script src="phone.js"></script>
+
+</body>
+</html>
