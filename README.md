@@ -1,3 +1,5 @@
+![AI Assisted](https://img.shields.io/badge/AI-Assisted-blue)
+![Status](https://img.shields.io/badge/status-active-success)
 # 🤖 AI Generated Projects Hub
 
 Repositorio que agrupa distintos proyectos desarrollados con la ayuda de herramientas de Inteligencia Artificial como ChatGPT, Claude, y otras.
@@ -83,3 +85,12 @@ Las contribuciones, ideas y sugerencias son bienvenidas.
 ---
 
 ## 📄 Licencia
+
+---
+
+## 👨‍💻 Mi rol
+
+- Diseño de arquitectura
+- Validación del código generado
+- Integración de componentes
+- Optimización y debugging
