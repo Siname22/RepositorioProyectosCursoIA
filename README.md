@@ -45,12 +45,11 @@ Todo el código ha sido revisado, adaptado y validado manualmente.
 
 ---
 
-## 📌 Proyectos destacados
+## 🌐 Accede a todos los proyectos
 
-| Proyecto | Descripción | Tecnologías | Estado |
-|----------|------------|------------|--------|
-| Project 1 | Breve descripción | Node.js | 🟢 Completado |
-| Project 2 | Breve descripción | Python | 🟡 En progreso |
+Todos los proyectos generados están disponibles en la página central:  
+
+➡️ [Ver todos los proyectos](http://repositorioproyectos.html-5.me/)
 
 ---
 
