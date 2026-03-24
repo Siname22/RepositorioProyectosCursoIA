@@ -28,7 +28,7 @@ Cada proyecto se encuentra en su propia carpeta:
 - Frameworks: Angular, Unity, Node.js
 - Cloud: AWS
 - Contenedores: Docker / Podman
-- IA: ChatGPT, Claude
+- IA: ChatGPT, Claude, Gemini, Qwen, Copilot
 
 ---
 
