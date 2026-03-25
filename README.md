@@ -23,9 +23,9 @@ Desarrollador en formación con foco en herramientas potenciadas por IA, experie
 
 | Project | Description (EN) | Descripción (ES) | Live | Code |
 |---|---|---|---|---|
-| **Classroom Organizer** | Web tool to organize classroom activities and students | Herramienta web para organizar actividades y alumnos | [🔗 Live](http://repositorioproyectos.html-5.me/classroom-organizer) | [📁 Code](./proyectos/classroom-organizer) |
-| **Landing Page 01** | First professional landing page project | Primer proyecto de landing page profesional | [🔗 Live](http://repositorioproyectos.html-5.me/landing-01) | [📁 Code](./proyectos/landing-01) |
-| **Landing Page 02** | Second landing page with improved design | Segunda landing page con diseño mejorado | [🔗 Live](http://repositorioproyectos.html-5.me/landing-02) | [📁 Code](./proyectos/landing-02) |
+| **Classroom Organizer** | Web tool to organize classroom activities and students | Herramienta web para organizar actividades y alumnos | [🔗 Live](http://repositorioproyectos.html-5.me/classroom-organizer) | [📁 Code](./Proyectos/ClassroomOrganizer) |
+| **Landing Page 01** | First professional landing page project | Primer proyecto de landing page profesional | [🔗 Live](http://repositorioproyectos.html-5.me/landing-01) | [📁 Code](./Proyectos/PrimerLanding) |
+| **Landing Page 02** | Second landing page with improved design | Segunda landing page con diseño mejorado | [🔗 Live](http://repositorioproyectos.html-5.me/landing-02) | [📁 Code](./Proyectos/SegundoLanding) |
 
 ### 🔧 In progress / En desarrollo
 
