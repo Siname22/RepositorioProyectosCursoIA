@@ -1,95 +1,88 @@
-![AI Assisted](https://img.shields.io/badge/AI-Assisted-blue)
-![Status](https://img.shields.io/badge/status-active-success)
-# 🤖 AI Generated Projects Hub
+# 🚀 AI & Web Development Portfolio / Portfolio IA
 
-Repositorio que agrupa distintos proyectos desarrollados con la ayuda de herramientas de Inteligencia Artificial como ChatGPT, Claude, y otras.
-
-## 🚀 Objetivo
-
-Este repositorio tiene como finalidad:
-- Experimentar con el desarrollo asistido por IA
-- Validar ideas de forma rápida (prototipado)
-- Mejorar la productividad en desarrollo
-- Documentar el proceso de creación con IA
-
-## 🧩 Estructura del repositorio
-
-Cada proyecto se encuentra en su propia carpeta:
- Descripción del proyecto
-- 🧠 Prompt o contexto usado (si aplica)
-- ⚙️ Tecnologías utilizadas
-- 🚧 Estado del proyecto
+> **[ES]** Colección de proyectos desarrollados durante mi formación en Inteligencia Artificial y Desarrollo Web.  
+> **[EN]** A collection of projects built during my training in Artificial Intelligence and Web Development.
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## 👤 About me / Sobre mí
 
-- Lenguajes: Python, JavaScript, C#
-- Frameworks: Angular, Unity, Node.js
-- Cloud: AWS
-- Contenedores: Docker / Podman
-- IA: ChatGPT, Claude, Gemini, Qwen, Copilot
+**[EN]**  
+Developer in training with a focus on AI-powered tools, interactive web experiences, and practical automation. I build things that solve real problems.
 
----
+**[ES]**  
+Desarrollador en formación con foco en herramientas potenciadas por IA, experiencias web interactivas y automatización práctica. Construyo cosas que resuelven problemas reales.
 
-## 🤖 Uso de Inteligencia Artificial
-
-En este reposorio, la IA se ha utilizado para:
-- Generación de código base
-- Resolución de problemas técnicos
-- Creación de estructuras de proyecto
-- Documentación inicial
-
-⚠️ **Importante:**  
-Todo el código ha sido revisado, adaptado y validado manualmente.
+🌐 **Live portfolio / Portfolio en vivo:** [repositorioproyectos.html-5.me](http://repositorioproyectos.html-5.me/)
 
 ---
 
-## 🌐 Accede a todos los proyectos
+## 📁 Projects / Proyectos
 
-Todos los proyectos generados están disponibles en la página central:  
+### ✅ Published / Publicados
 
-➡️ [Ver todos los proyectos](http://repositorioproyectos.html-5.me/)
+| Project | Description (EN) | Descripción (ES) | Live | Code |
+|---|---|---|---|---|
+| **Classroom Organizer** | Web tool to organize classroom activities and students | Herramienta web para organizar actividades y alumnos | [🔗 Live](http://repositorioproyectos.html-5.me/classroom-organizer) | [📁 Code](./proyectos/classroom-organizer) |
+| **Landing Page 01** | First professional landing page project | Primer proyecto de landing page profesional | [🔗 Live](http://repositorioproyectos.html-5.me/landing-01) | [📁 Code](./proyectos/landing-01) |
+| **Landing Page 02** | Second landing page with improved design | Segunda landing page con diseño mejorado | [🔗 Live](http://repositorioproyectos.html-5.me/landing-02) | [📁 Code](./proyectos/landing-02) |
 
----
+### 🔧 In progress / En desarrollo
 
-## 🧠 Aprendizajes clave
-
-- Cómo integrar IA en el flujo de desarrollo
-- Mejores prácticas al trabajar con código generado
-- Limitaciones reales de la IA en proyectos complejos
-
----
-
-## ⚠️ Disclaimer
-
-Este repositorio incluye contenido generado parcialmente por IA.  
-El objetivo es educativo y experimental.
+| Project | Description (EN) | Descripción (ES) |
+|---|---|---|
+| **Tesla Pi Phone** | Interactive web simulator of the Tesla Pi Phone concept | Simulador web interactivo del concepto Tesla Pi Phone |
+| **Inkor IA Tools** | AI-powered tools built during the Inkor AI Course | Herramientas con IA desarrolladas durante el Curso Inkor |
 
 ---
 
-## 📬 Contacto
+## 🛠️ Tech Stack / Tecnologías
 
-Si te interesa colaborar o tienes feedback:
-
-- LinkedIn: https://www.linkedin.com/in/raul-poblete/
-- GitHub: Siname22
-
----
-
-## ⭐ Contribuciones
-
-Las contribuciones, ideas y sugerencias son bienvenidas.
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![AI Tools](https://img.shields.io/badge/AI%20Tools-Claude%20%7C%20ChatGPT-blueviolet?style=flat)
 
 ---
 
-## 📄 Licencia
+## 📂 Repository Structure / Estructura del repositorio
+
+```
+RepositorioProyectosCursoIA/
+│
+├── index.html                  # Main portfolio page / Página principal
+├── README.md                   # This file / Este archivo
+│
+├── assets/
+│   ├── css/                    # Global styles / Estilos globales
+│   ├── js/                     # Global scripts / Scripts globales
+│   └── img/                    # Shared images / Imágenes compartidas
+│
+└── proyectos/
+    ├── classroom-organizer/
+    │   ├── index.html
+    │   └── README.md
+    ├── landing-01/
+    │   ├── index.html
+    │   └── README.md
+    ├── landing-02/
+    │   ├── index.html
+    │   └── README.md
+    ├── tesla-pi-phone/
+    │   ├── index.html
+    │   └── README.md
+    └── inkor-ia/
+        ├── index.html
+        └── README.md
+```
 
 ---
 
-## 👨‍💻 Mi rol
+## 📬 Contact / Contacto
 
-- Diseño de arquitectura
-- Validación del código generado
-- Integración de componentes
-- Optimización y debugging
+> **[EN]** Feel free to explore the projects and reach out if you'd like to collaborate.  
+> **[ES]** Explora los proyectos y no dudes en contactarme si quieres colaborar.
+
+---
+
+*Built with curiosity and AI assistance / Construido con curiosidad y asistencia de IA* 🤖
