@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "mods": [
+    {
+      "id": "eeefc3c9-f726-4f2d-99f8-9aeb3bdf5bc6",
+      "installedAt": "2026-05-22T14:37:01.708175600Z",
+      "format": "fantome"
+    }
+  ],
+  "profiles": [
+    {
+      "id": "e825ad71-f17e-432b-9f9d-1e99292b9963",
+      "name": "Default",
+      "slug": "default",
+      "enabledMods": [
+        "eeefc3c9-f726-4f2d-99f8-9aeb3bdf5bc6"
+      ],
+      "modOrder": [
+        "eeefc3c9-f726-4f2d-99f8-9aeb3bdf5bc6"
+      ],
+      "layerStates": {},
+      "createdAt": "2026-05-22T14:37:01.707896800Z",
+      "lastUsed": "2026-05-22T14:37:01.707897200Z"
+    }
+  ],
+  "activeProfileId": "e825ad71-f17e-432b-9f9d-1e99292b9963",
+  "folders": [
+    {
+      "id": "root",
+      "name": "",
+      "modIds": [
+        "eeefc3c9-f726-4f2d-99f8-9aeb3bdf5bc6"
+      ]
+    }
+  ],
+  "folderOrder": [
+    "root"
+  ]
+}

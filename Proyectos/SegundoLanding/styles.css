@@ -7,6 +7,23 @@
 /* Global */
 * { box-sizing: border-box; }
 
+/* Skip link para accesibilidad */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #2ee878;
+  color: #050d09;
+  padding: 8px;
+  text-decoration: none;
+  z-index: 100;
+  font-weight: bold;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
 :root {
   --bg:          #050d09;
   --surface:     rgba(46, 229, 120, 0.06);

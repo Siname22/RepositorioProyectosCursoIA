@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "mods": [],
+  "profiles": [
+    {
+      "id": "916d257b-14ab-4036-91e6-dda58a97cab7",
+      "name": "Default",
+      "slug": "default",
+      "enabledMods": [],
+      "modOrder": [],
+      "layerStates": {},
+      "createdAt": "2026-05-22T14:32:09.469009200Z",
+      "lastUsed": "2026-05-22T14:32:09.469009600Z"
+    }
+  ],
+  "activeProfileId": "916d257b-14ab-4036-91e6-dda58a97cab7",
+  "folders": [
+    {
+      "id": "root",
+      "name": "",
+      "modIds": []
+    },
+    {
+      "id": "093da7ed-ff8f-4313-8330-dd4227eb5102",
+      "name": "Mapas",
+      "modIds": []
+    }
+  ],
+  "folderOrder": [
+    "root",
+    "093da7ed-ff8f-4313-8330-dd4227eb5102"
+  ]
+}

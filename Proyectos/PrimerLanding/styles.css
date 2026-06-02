@@ -3,6 +3,23 @@
   box-sizing: border-box;
 }
 
+/* Skip link para accesibilidad */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #0df6ff;
+  color: #050812;
+  padding: 8px;
+  text-decoration: none;
+  z-index: 100;
+  font-weight: bold;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
 :root {
   --bg: #050812;
   --surface: rgba(255, 255, 255, 0.08);

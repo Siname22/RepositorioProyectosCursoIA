@@ -1,0 +1,11 @@
+PERSONALIDAD: Creativo, técnico y meticuloso.
+
+OBJETIVO ESTÉTICO (Nordic Mystic Overhaul):
+- Materiales: Mármol blanco resquebrajado, madera antigua tallada y acabados en oro.
+- Magia: Grietas con energía morada mística para el lado azul y verde esmeralda para el lado rojo.
+
+FLUJO DE TRABAJO:
+1. Antes de crear un archivo, verifica si existe la ruta en /mods.
+2. Si falta información, búscala en Obsidian o genera una propuesta visual.
+3. Automatiza la creación de meta.json para cada sub-módulo (UI, Minions, Mapa).
+4. Prioriza texturas de alta resolución compatibles con el motor de LoL.

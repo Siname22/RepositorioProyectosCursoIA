@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "mods": [
+    {
+      "id": "2d186cf4-db87-409b-b0fc-d459dbc43a29",
+      "installedAt": "2026-05-22T14:40:04.564462200Z",
+      "format": "fantome"
+    },
+    {
+      "id": "b886e5f9-8322-48cc-8b0e-d253ea7020ac",
+      "installedAt": "2026-05-22T14:40:11.980704800Z",
+      "format": "fantome"
+    }
+  ],
+  "profiles": [
+    {
+      "id": "93dcd722-c18f-40f9-81ed-93c6babeca6f",
+      "name": "Default",
+      "slug": "default",
+      "enabledMods": [
+        "b886e5f9-8322-48cc-8b0e-d253ea7020ac",
+        "2d186cf4-db87-409b-b0fc-d459dbc43a29"
+      ],
+      "modOrder": [
+        "b886e5f9-8322-48cc-8b0e-d253ea7020ac",
+        "2d186cf4-db87-409b-b0fc-d459dbc43a29"
+      ],
+      "layerStates": {},
+      "createdAt": "2026-05-22T14:40:04.564172700Z",
+      "lastUsed": "2026-05-22T14:40:04.564173300Z"
+    }
+  ],
+  "activeProfileId": "93dcd722-c18f-40f9-81ed-93c6babeca6f",
+  "folders": [
+    {
+      "id": "root",
+      "name": "",
+      "modIds": [
+        "b886e5f9-8322-48cc-8b0e-d253ea7020ac",
+        "2d186cf4-db87-409b-b0fc-d459dbc43a29"
+      ]
+    }
+  ],
+  "folderOrder": [
+    "root"
+  ]
+}
