@@ -1,0 +1,16 @@
+{
+  "name": "arcade-minions",
+  "display_name": "Arcade Minions",
+  "version": "15.20.1.2.78",
+  "description": "Click the 💚 to join my discord (✿^‿^)",
+  "authors": [
+    "Moga"
+  ],
+  "layers": [
+    {
+      "name": "base",
+      "priority": 0,
+      "description": "Base layer of the mod"
+    }
+  ]
+}

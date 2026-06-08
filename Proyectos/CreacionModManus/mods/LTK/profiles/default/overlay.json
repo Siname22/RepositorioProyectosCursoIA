@@ -1,0 +1,46 @@
+{
+  "version": 4,
+  "enabledMods": [
+    "43715414-45ca-4439-8220-134db0694678",
+    "7cac5172-d43c-4d9c-b576-cf87325bc917",
+    "56a02d84-5e8b-4a05-91e7-757be4a5105e",
+    "74c75786-d630-48d8-819f-d3bcee502032",
+    "b4ea8d47-4478-4c9a-a85c-42cc0a338e03",
+    "78942e28-5000-4acb-8906-af830f2e5602",
+    "199a1594-5b27-4717-a50c-01d37ecc59e0",
+    "a249be86-a6af-46f8-8e9e-3710867fbe98",
+    "94f0cb23-52b6-4253-9784-d4c21464ae49",
+    "b886e5f9-8322-48cc-8b0e-d253ea7020ac",
+    "2d186cf4-db87-409b-b0fc-d459dbc43a29"
+  ],
+  "gameFingerprint": 11001399109196326476,
+  "blockedWads": [
+    "scripts.wad.client"
+  ],
+  "wadFingerprints": {
+    "DATA\\FINAL\\Champions\\Akshan.wad.client": 7368340534789695094,
+    "DATA\\FINAL\\Champions\\Leblanc.wad.client": 4904064967819804371,
+    "DATA\\FINAL\\Champions\\Lux.es_ES.wad.client": 3553558969139898642,
+    "DATA\\FINAL\\Champions\\Lux.wad.client": 2889320003057485878,
+    "DATA\\FINAL\\Champions\\Nocturne.es_ES.wad.client": 4847635883116948036,
+    "DATA\\FINAL\\Champions\\Nocturne.wad.client": 10356107917324653927,
+    "DATA\\FINAL\\Champions\\Ruby_Lux.es_ES.wad.client": 3553558969139898642,
+    "DATA\\FINAL\\Champions\\Shen.es_ES.wad.client": 13348662878183494756,
+    "DATA\\FINAL\\Champions\\Shen.wad.client": 810068806582032335,
+    "DATA\\FINAL\\Champions\\Velkoz.wad.client": 7708908164203869273,
+    "DATA\\FINAL\\Champions\\Zaahen.wad.client": 14157286121108635969,
+    "DATA\\FINAL\\DATA.wad.client": 11272810266370237818,
+    "DATA\\FINAL\\Global.wad.client": 470895098567163415,
+    "DATA\\FINAL\\Maps\\Shipping\\Map11.wad.client": 17561816353567847056,
+    "DATA\\FINAL\\Maps\\Shipping\\Map12.wad.client": 12816774285648188381,
+    "DATA\\FINAL\\Maps\\Shipping\\Map21.wad.client": 3096978366474577954,
+    "DATA\\FINAL\\Maps\\Shipping\\Map22.wad.client": 1823941744888658965,
+    "DATA\\FINAL\\Maps\\Shipping\\Map30.wad.client": 2248967595074777367,
+    "DATA\\FINAL\\Maps\\Shipping\\Map33.wad.client": 2634323460081529758,
+    "DATA\\FINAL\\Maps\\Shipping\\Map35.wad.client": 9180439496741196802,
+    "DATA\\FINAL\\TFTSet13.wad.client": 17916639878129753771,
+    "DATA\\FINAL\\TFTSet16.wad.client": 17916639878129753771,
+    "DATA\\FINAL\\TFTSet3.wad.client": 9960893240262875631,
+    "DATA\\FINAL\\UI.wad.client": 7964348755091765847
+  }
+}

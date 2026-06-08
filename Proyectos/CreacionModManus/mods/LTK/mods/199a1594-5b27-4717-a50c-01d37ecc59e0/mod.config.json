@@ -1,0 +1,16 @@
+{
+  "name": "eternal-aspect-leblanc",
+  "display_name": "Eternal Aspect LeBlanc",
+  "version": "3.0.0",
+  "description": "LeBlanc from TFT Set 17 Space Gods",
+  "authors": [
+    "AryasDemise"
+  ],
+  "layers": [
+    {
+      "name": "base",
+      "priority": 0,
+      "description": "Base layer of the mod"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "zaahen-fallen-angel",
+  "display_name": "Zaahen Fallen Angel",
+  "version": "1.0.0",
+  "description": "Zaahen Base Skin Chroma",
+  "authors": [
+    "aluna"
+  ],
+  "layers": [
+    {
+      "name": "base",
+      "priority": 0,
+      "description": "Base layer of the mod"
+    }
+  ]
+}

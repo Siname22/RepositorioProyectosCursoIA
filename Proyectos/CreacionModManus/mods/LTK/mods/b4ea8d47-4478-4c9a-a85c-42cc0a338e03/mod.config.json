@@ -1,0 +1,16 @@
+{
+  "name": "moon-knight-akshan",
+  "display_name": "Moon Knight Akshan",
+  "version": "15.17",
+  "description": "updated to fix patch 15.17 VFX",
+  "authors": [
+    "EL7OOT"
+  ],
+  "layers": [
+    {
+      "name": "base",
+      "priority": 0,
+      "description": "Base layer of the mod"
+    }
+  ]
+}

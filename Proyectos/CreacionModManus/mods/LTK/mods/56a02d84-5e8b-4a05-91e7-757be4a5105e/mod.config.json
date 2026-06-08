@@ -1,0 +1,16 @@
+{
+  "name": "arcane-scuttle",
+  "display_name": "Arcane Scuttle",
+  "version": "15.14.1.3.33",
+  "description": "Brings back the Arcane themed scuttle crab.",
+  "authors": [
+    "Moga"
+  ],
+  "layers": [
+    {
+      "name": "base",
+      "priority": 0,
+      "description": "Base layer of the mod"
+    }
+  ]
+}
