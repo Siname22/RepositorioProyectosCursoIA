@@ -1,0 +1,54 @@
+/* ==========================================================================
+   styles.css - Estilos del Menú Global con Namespace Protegido
+   Ubicación: Raíz del repositorio
+   ========================================================================== */
+
+.repo-sys-header {
+    background-color: #0d0d0d !important;
+    border-bottom: 2px solid #b5ff1a !important;
+    padding: 10px 20px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    position: relative !important;
+    z-index: 99999 !important; /* Prioridad máxima sobre capas 3D y loaders */
+    display: block !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+.repo-sys-nav .repo-sys-list {
+    display: flex !important;
+    list-style: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    gap: 20px !important;
+    flex-wrap: wrap !important;
+}
+
+.repo-sys-link {
+    color: #b3b3b3 !important;
+    text-decoration: none !important;
+    font-weight: 600 !important;
+    font-family: 'Share Tech Mono', monospace !important;
+    padding: 6px 12px !important;
+    border-radius: 4px !important;
+    transition: background 0.2s, color 0.2s !important;
+    font-size: 13px !important;
+    text-transform: uppercase !important;
+    display: inline-block !important;
+}
+
+.repo-sys-link:hover {
+    color: #b5ff1a !important;
+    background-color: rgba(255, 255, 255, 0.05) !important;
+}
+
+/* Indicador de foco W3C para navegación por teclado */
+.repo-sys-link:focus {
+    outline: 3px solid #00e5ff !important;
+    outline-offset: 2px !important;
+}
+
+.repo-sys-link[aria-current="page"] {
+    color: #000000 !important;
+    background-color: #b5ff1a !important;
+}
